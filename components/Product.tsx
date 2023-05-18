@@ -94,7 +94,7 @@ function Product({
                     {btnText && (
                         <div className="flex flex-col text-2xl  items-center opacity-85 m-[8px]">
                             <span
-                                className={`border-white border-2 rounded-md h-10 w-[200px]  flex items-center justify-center opacity-85 uppercase text-sm cursor-pointer m-[8px] font-light text-white`}
+                                className={`border-white border-2 rounded-md h-10 w-[200px] flex items-center justify-center opacity-85 uppercase text-sm cursor-pointer m-[8px] font-light text-white`}
                             >
                                 {btnText}
                             </span>
