@@ -1,11 +1,12 @@
 import React from 'react'
+
+import Footer from "./Footer"
 import Section from './Section'
 
 type Props = {}
 
-const Main = (props: Props) => {
-    return (
-        <div className='snap snap-y snap-mandatory'>
+const Main = (props: Props) => (
+    <div className='snap snap-y snap-mandatory'>
             <Section
                 title="Test"
                 description="Description"
@@ -24,8 +25,8 @@ const Main = (props: Props) => {
                 id="model-y"
                 slug="model-y"
             />
-        </div>
-    )
-}
+            <Footer/>
+    </div>
+)
 
 export default Main

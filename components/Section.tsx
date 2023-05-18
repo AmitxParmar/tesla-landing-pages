@@ -61,7 +61,6 @@ const Section = ({
 
                 <div className='flex w-full items-center justify-center h-10 animate-animateDown overflow-x-hidden text-white'>
                     <ExpandMore className='w-5 h-5 !text-white'/>
-
                 </div>
             </div>
         </div>
